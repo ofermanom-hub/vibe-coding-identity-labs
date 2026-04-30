@@ -1,0 +1,11 @@
+{
+  "project_name": "Identity-Decoder-Vibe",
+  "architect": "Ofer Sadeh Man",
+  "philosophy": "High-level orchestration over manual boilerplate[cite: 1]",
+  "constraints": {
+    "security_protocols": ["SAML", "JWT", "OAuth2"],
+    "target_audience": "Technical Partner Specialists[cite: 1]",
+    "tone": "Enterprise-grade yet minimalist"
+  },
+  "prompt_foundation": "Build a CLI tool that takes a string input. If it starts with 'eyJ', treat as JWT. If it contains XML tags, treat as SAML. Provide a clean implementation of the 'Trusted Technical Advisor' mindset[cite: 1]."
+}

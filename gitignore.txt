@@ -1,0 +1,9 @@
+# Ignore sensitive security keys used during testing
+*.pem
+*.key
+*.pfx
+
+# Python environment
+__pycache__/
+venv/
+.env
